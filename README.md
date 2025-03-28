@@ -1,5 +1,5 @@
 # sumahealth 🦎
-Script to monitor the status of the SUMA or SMLM services 
+Script to monitor the status of the SUMA or SMLM services  
 SMLM version: 5.0 
 ## Install it
 ```bash
