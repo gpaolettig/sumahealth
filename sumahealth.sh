@@ -15,7 +15,6 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-# Correctamente agrupar las condiciones
 if [ "$1" == "-r" ] || [ "$1" == "--resume" ]; then
     act=$(mgradm status | grep "Active: active" | wc -l)
     in=$(mgradm status | grep "Active: inactive" | wc -l)
