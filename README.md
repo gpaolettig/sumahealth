@@ -5,10 +5,11 @@ SMLM version: 5.0
 ```bash
 curl -L https://raw.githubusercontent.com/gpaolettig/sumahealth/master/sumahealth.sh -o sumahealth.sh
 chmod +x sumahealth.sh
+sudo mv sumahealth.sh /usr/local/bin/sumahealth
 ```
 ## Try it
 ```
-./sumahealth.sh --help
+sumahealth --help
 Usage: sumahealth [OPTIONS]
 
 OPTIONS:
